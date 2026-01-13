@@ -60,7 +60,7 @@ class DatabaseHelper {
         id: index + 1,
         titulo: 'Imagen ${index + 1}',
         imageUrl: 'https://picsum.photos/seed/${index + 1}/200/200',
-        autor: index % 2 == 0 ? 'RA-7' : 'OTRO-1', // solo algunos coinciden
+        autor: index % 2 == 0 ? 'CL-0' : 'OTRO-1', 
       );
     });
 
